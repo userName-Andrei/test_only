@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.history_points {
+    padding: 170px 0px 104px;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        background: $border_line_container;
+        width: 1px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.title {
+    //float: left;
+    position: relative;
+    padding-left: 78px;
+    
+    &__text {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(56,119,238,1) 50%, rgba(239,93,168,1) 100%);;
+    }
+}

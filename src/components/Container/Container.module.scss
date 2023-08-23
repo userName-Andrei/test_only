@@ -1,0 +1,8 @@
+@import '../../variables.scss';
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-left: 1px solid $border_line_container;
+    border-right: 1px solid $border_line_container;
+}
